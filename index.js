@@ -14,7 +14,7 @@ express()
 
   
 
-app.get('/api/fuck', (req, res) => {
+app.get('/', (req, res) => {
   res.json({
       'message': 'fuck'
   });
